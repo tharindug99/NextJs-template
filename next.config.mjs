@@ -2,7 +2,7 @@
 const nextConfig = {
     env: {
         customKey: 'check 1',
-        API:"something"
+        
       },
 };
 

@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-white p-4 shadow-lg">
+    <header className="bg-white p-4 shadow-lg z-999 fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-black text-xl">
           <Link href="/">

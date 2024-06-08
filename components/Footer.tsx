@@ -3,13 +3,13 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-white text-black py-8 fixed bottom-0 w-full">
+    <footer className="bg-white text-black py-8 bottom-0 w-full">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Logo and Social Media */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0">
             <img src="/logo.png" alt="Company Logo" className="h-12 mb-4" />
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mt-12">
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
               <FaFacebook size={30} className="text-black hover:text-gray-400" />
               </a>
