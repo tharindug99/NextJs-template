@@ -8,7 +8,7 @@ function Footer() {
         <div className="flex flex-wrap justify-between">
           {/* Logo and Social Media */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0">
-            <img src="/logo.png" alt="Company Logo" className="h-12 mb-4" />
+            <img src="/logo.png" alt="Company Logo" className="h-14 mx-8" />
             <div className="flex space-x-4 mt-12">
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
               <FaFacebook size={30} className="text-black hover:text-gray-400" />
