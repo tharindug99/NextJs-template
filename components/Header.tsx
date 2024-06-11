@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
-import Logo from '../app/public/bg.jpg'
+import Logo from '../app/public/logo.png'
 import Image from 'next/image';
 
 function Header() {

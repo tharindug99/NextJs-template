@@ -26,7 +26,8 @@ export default function RootLayout({
                 layout="fill" 
                 objectFit="cover" 
                 quality={100}
-                className="pointer-events-none -z-10"/> 
+                className="pointer-events-none -z-10"
+                style={{ backgroundRepeat: 'repeat', backgroundImage: `url(${backgroundImg.src})` }}/> 
         <Header/>
         {children}
         <Footer/>
