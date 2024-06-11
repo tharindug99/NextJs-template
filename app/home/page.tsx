@@ -3,7 +3,8 @@ import React from 'react'
 function Home() {
   return (
     <div>
-        <div className="bg-slate-100 py-24"> {/* Add padding-top */}
+      
+        <div className=" py-24"> {/* Add padding-top */}
         <div className="items-center text-center font-bold text-5xl py-20">
           {/* <Post
             title="Example Title"

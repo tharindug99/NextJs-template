@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import backgroundImg from '../app/public/bg.jpg';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ }}>
+      <body>
+        <Image  src={backgroundImg} 
+                alt="Background" 
+                layout="fill" 
+                objectFit="cover" 
+                quality={100}
+                className="pointer-events-none -z-10"/> 
         <Header/>
-          {children}
+        {children}
         <Footer/>
       </body>
     </html>
